@@ -1,0 +1,979 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Emmanuel M. Alo — IT Developer & Freelance Web Developer. PHP, MySQL, JavaScript, AJAX, Network Technology. Based in Batangas, Philippines."
+    />
+    <title>Emmanuel Alo — IT Developer & Freelancer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+    <!-- NAVIGATION -->
+    <nav id="main-nav" role="navigation" aria-label="Main navigation">
+      <a href="#" class="nav-logo" aria-label="Home">E. Alo</a>
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+    </nav>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" aria-label="Introduction">
+        <div class="hero-left">
+          <div class="hero-tag">Available for Freelance · 2026</div>
+          <h1 class="hero-name">
+            IT<br /><em>Software</em><br />
+            Developer
+          </h1>
+          <p class="hero-desc">
+            Detail-oriented web developer and network technologist from
+            Batangas, Philippines — building enterprise-grade systems,
+            responsive UIs, and reliable digital solutions for clients.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn-primary">View My Work</a>
+            <a href="assets/templates/CV_Emmanuel%20Alo.pdf" download target="_blank">
+              Download CV →
+            </a>
+          </div>
+          <div class="hero-stats" aria-label="Key stats">
+            <div class="stat">
+              <div class="stat-num" data-count="2" data-suffix="+">0</div>
+              <div class="stat-label">Systems Built</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num" data-count="4" data-suffix="+">0</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num" data-count="1" data-suffix=".55">0</div>
+              <div class="stat-label">GWA (Dean's List)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right" aria-hidden="true">
+          <div class="hero-image-area">
+            <div class="hero-img-placeholder">
+              <img src="assets/images/5R%20(4).JPG" alt="Emmanuel M. Alo" />
+            </div>
+            <div class="hero-label">
+              <div class="hero-label-inner">
+                <p>Currently featuring</p>
+                <h3>BSU JPLPC Malvar — BS Information Technology</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MARQUEE -->
+      <div class="marquee-strip" aria-hidden="true">
+        <div class="marquee-track">
+          <span class="marquee-item"
+            >PHP Development <span class="marquee-dot">✦</span> MySQL
+            <span class="marquee-dot">✦</span> JavaScript &amp; AJAX
+            <span class="marquee-dot">✦</span> Network Technology
+            <span class="marquee-dot">✦</span> AWS Cloud
+            <span class="marquee-dot">✦</span> Responsive UI
+            <span class="marquee-dot">✦</span></span
+          >
+          <span class="marquee-item"
+            >PHP Development <span class="marquee-dot">✦</span> MySQL
+            <span class="marquee-dot">✦</span> JavaScript &amp; AJAX
+            <span class="marquee-dot">✦</span> Network Technology
+            <span class="marquee-dot">✦</span> AWS Cloud
+            <span class="marquee-dot">✦</span> Responsive UI
+            <span class="marquee-dot">✦</span></span
+          >
+        </div>
+      </div>
+
+      <!-- WORK -->
+      <section id="work" aria-labelledby="work-title">
+        <div class="section-header">
+          <div>
+            <div class="section-label">Internship Projects</div>
+            <h2 class="section-title" id="work-title">
+              Selected <em>Work</em>
+            </h2>
+          </div>
+          <a href="#contact" class="section-link">Start a project →</a>
+        </div>
+
+        <div class="work-grid">
+          <!-- Featured — RFQ / Quotation Management System -->
+          <article
+            class="work-item featured fade-up"
+            tabindex="0"
+            aria-label="Quotation Management System — PHP, MySQL, JavaScript"
+          >
+            <div class="work-thumbnail">
+              <div class="carousel">
+                <div class="carousel-track">
+                  <img
+                    src="assets/images/rfq/01 sales dashboard.png"
+                    alt="RFQ — Sales Dashboard"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/rfq/02 sales import.png"
+                    alt="RFQ — Sales Import"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/rfq/03 sales review.png"
+                    alt="RFQ — Sales Review"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/rfq/04 sales monitoring.png"
+                    alt="RFQ — Sales Monitoring"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/rfq/05 sales history.png"
+                    alt="RFQ — Sales History"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/rfq/06 engineering dashboard.png"
+                    alt="RFQ — Engineering Dashboard"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/rfq/07 engineering pending.png"
+                    alt="RFQ — Engineering Pending"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/rfq/08 engineering task list.png"
+                    alt="RFQ — Engineering Task List"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/rfq/09 engineering complete.png"
+                    alt="RFQ — Engineering Complete"
+                    class="work-img carousel-slide"
+                  />
+                </div>
+                <button
+                  class="carousel-btn carousel-prev"
+                  aria-label="Previous image"
+                >
+                  &#8592;
+                </button>
+                <button
+                  class="carousel-btn carousel-next"
+                  aria-label="Next image"
+                >
+                  &#8594;
+                </button>
+                <div class="carousel-dots"></div>
+              </div>
+              <div class="work-overlay">
+                <div class="work-overlay-content">
+                  <div class="work-overlay-tag">
+                    Enterprise Web App · Internship
+                  </div>
+                  <div class="work-overlay-title">
+                    Quotation Management System
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-meta">
+              <span class="work-cat"
+                >PHP · MySQL · JS · PDF Generation · KPI Dashboards</span
+              >
+              <span class="work-year">2026</span>
+            </div>
+          </article>
+
+          <!-- Calendar Scheduling System -->
+          <article
+            class="work-item fade-up"
+            tabindex="0"
+            aria-label="Company Calendar Scheduling System — AJAX, PHP"
+          >
+            <div class="work-thumbnail">
+              <div class="carousel">
+                <div class="carousel-track">
+                  <img
+                    src="assets/images/calendar/image (1).png"
+                    alt="Calendar — View 1"
+                    class="work-img carousel-slide"
+                  />
+                  <!-- <img src="assets/images/calendar/image (2).png"  alt="Calendar — View 2"  class="work-img carousel-slide" /> -->
+                  <img
+                    src="assets/images/calendar/image (3).png"
+                    alt="Calendar — View 3"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/calendar/image (4).png"
+                    alt="Calendar — View 4"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/calendar/image (5).png"
+                    alt="Calendar — View 5"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/calendar/image (6).png"
+                    alt="Calendar — View 6"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/calendar/image (7).png"
+                    alt="Calendar — View 7"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/calendar/image (8).png"
+                    alt="Calendar — View 8"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/calendar/image (9).png"
+                    alt="Calendar — View 9"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/calendar/image (10).png"
+                    alt="Calendar — View 10"
+                    class="work-img carousel-slide"
+                  />
+                </div>
+                <button
+                  class="carousel-btn carousel-prev"
+                  aria-label="Previous image"
+                >
+                  &#8592;
+                </button>
+                <button
+                  class="carousel-btn carousel-next"
+                  aria-label="Next image"
+                >
+                  &#8594;
+                </button>
+                <div class="carousel-dots"></div>
+              </div>
+              <div class="work-overlay">
+                <div class="work-overlay-content">
+                  <div class="work-overlay-tag">Internal Tool · Internship</div>
+                  <div class="work-overlay-title">
+                    Calendar Scheduling System
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-meta">
+              <span class="work-cat"
+                >PHP · AJAX · Conflict Detection · Attendee Mgmt</span
+              >
+              <span class="work-year">2026</span>
+            </div>
+          </article>
+
+          <!-- AR/VR Thesis -->
+          <article
+            class="work-item fade-up"
+            tabindex="0"
+            aria-label="AR/VR Thesis Project — Unity, Hand Tracking"
+          >
+            <div class="work-thumbnail">
+              <div class="carousel">
+                <div class="carousel-track">
+                  <img
+                    src="assets/images/thesis/ar-vr-fullsoftware.png"
+                    alt="Thesis — Full Software"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/thesis/ar-vr-dev-mode.png"
+                    alt="Thesis — Dev Mode"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/thesis/ar-vr-baseball.jpg"
+                    alt="Thesis — Baseball"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/thesis/ar-vr-red-mugs.png"
+                    alt="Thesis — Red Mugs"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/thesis/ar-vr-rubiks.jpg"
+                    alt="Thesis — Rubiks"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/thesis/ar-vr-whitemug.jpg"
+                    alt="Thesis — White Mug"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/thesis/gloves-backhand-removebg-preview.png"
+                    alt="Thesis — Gloves Backhand"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/thesis/gloves-green-bg-removebg-preview.png"
+                    alt="Thesis — Gloves Green BG"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/thesis/gloves-inhand-removebg-preview.png"
+                    alt="Thesis — Gloves In Hand"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/thesis/project1(f3).jpg"
+                    alt="Thesis — Project F3"
+                    class="work-img carousel-slide"
+                  />
+                </div>
+                <button
+                  class="carousel-btn carousel-prev"
+                  aria-label="Previous image"
+                >
+                  &#8592;
+                </button>
+                <button
+                  class="carousel-btn carousel-next"
+                  aria-label="Next image"
+                >
+                  &#8594;
+                </button>
+                <div class="carousel-dots"></div>
+              </div>
+              <div class="work-overlay">
+                <div class="work-overlay-content">
+                  <div class="work-overlay-tag">Thesis · AR/VR</div>
+                  <div class="work-overlay-title">
+                    AR/VR Hand Tracking System
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-meta">
+              <span class="work-cat"
+                >Unity · Hand Gesture Recognition · Mixed Reality</span
+              >
+              <span class="work-year">2025</span>
+            </div>
+          </article>
+
+          <!-- CB Resort Website -->
+          <article
+            class="work-item fade-up"
+            tabindex="0"
+            aria-label="CB Resort Website — Responsive Web Design"
+          >
+            <div class="work-thumbnail">
+              <div class="carousel">
+                <div class="carousel-track">
+                  <img
+                    src="assets/images/resort/project2(main).jpg"
+                    alt="Resort — Main"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/resort/project2(f1).jpg"
+                    alt="Resort — Feature"
+                    class="work-img carousel-slide"
+                  />
+                </div>
+                <button
+                  class="carousel-btn carousel-prev"
+                  aria-label="Previous image"
+                >
+                  &#8592;
+                </button>
+                <button
+                  class="carousel-btn carousel-next"
+                  aria-label="Next image"
+                >
+                  &#8594;
+                </button>
+                <div class="carousel-dots"></div>
+              </div>
+              <div class="work-overlay">
+                <div class="work-overlay-content">
+                  <div class="work-overlay-tag">Web Design · Freelance</div>
+                  <div class="work-overlay-title">
+                    CB Resort — Room Booking Website
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-meta">
+              <span class="work-cat"
+                >HTML · CSS · PHP · Room Booking · Cart System</span
+              >
+              <span class="work-year">2024</span>
+            </div>
+          </article>
+
+          <!-- Cinema Ticketing System -->
+          <article
+            class="work-item fade-up"
+            tabindex="0"
+            aria-label="Cinema Ticketing System — VB.NET"
+          >
+            <div class="work-thumbnail">
+              <div class="carousel">
+                <div class="carousel-track">
+                  <img
+                    src="assets/images/cinema/project3(main).jpg"
+                    alt="Cinema — Main"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/cinema/project3(f1).jpg"
+                    alt="Cinema — Feature 1"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/cinema/project3(f2).jpg"
+                    alt="Cinema — Feature 2"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/cinema/project3(f3).jpg"
+                    alt="Cinema — Feature 3"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/cinema/project3(f4).jpg"
+                    alt="Cinema — Feature 4"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/cinema/project3(f5).jpg"
+                    alt="Cinema — Feature 5"
+                    class="work-img carousel-slide"
+                  />
+                  <img
+                    src="assets/images/cinema/project3(f6).jpg"
+                    alt="Cinema — Feature 6"
+                    class="work-img carousel-slide"
+                  />
+                </div>
+                <button
+                  class="carousel-btn carousel-prev"
+                  aria-label="Previous image"
+                >
+                  &#8592;
+                </button>
+                <button
+                  class="carousel-btn carousel-next"
+                  aria-label="Next image"
+                >
+                  &#8594;
+                </button>
+                <div class="carousel-dots"></div>
+              </div>
+              <div class="work-overlay">
+                <div class="work-overlay-content">
+                  <div class="work-overlay-tag">Desktop App · Academic</div>
+                  <div class="work-overlay-title">
+                    HalojaTix Cinema Ticketing
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-meta">
+              <span class="work-cat"
+                >VB.NET · Seat Selection · Session Booking</span
+              >
+              <span class="work-year">2024</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ABOUT / SKILLS + EXPERIENCE -->
+      <section id="about" class="about-section" aria-labelledby="about-title">
+        <div class="about-left">
+          <div class="section-label">About</div>
+          <h2 class="section-title" id="about-title">
+            Code with<br /><em>purpose</em>
+          </h2>
+          <p class="about-body">
+            I'm a BS Information Technology graduate (Major in Network
+            Technology) from Batangas State University with a GWA of 1.5590 and
+            consistent Dean's List standing. During my internship at Arktech
+            Philippines Inc., I delivered two full enterprise web systems. Now
+            I'm ready to help businesses build their digital presence.
+          </p>
+          <div class="skills-list" role="list" aria-label="Technical skills">
+            <div class="skill-row" role="listitem">
+              <span class="skill-name">PHP / MySQL</span>
+              <div class="skill-bar-track" aria-label="90%">
+                <div class="skill-bar-fill" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-row" role="listitem">
+              <span class="skill-name">JavaScript / AJAX</span>
+              <div class="skill-bar-track" aria-label="85%">
+                <div class="skill-bar-fill" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-row" role="listitem">
+              <span class="skill-name">HTML / CSS</span>
+              <div class="skill-bar-track" aria-label="92%">
+                <div class="skill-bar-fill" data-width="92"></div>
+              </div>
+            </div>
+            <div class="skill-row" role="listitem">
+              <span class="skill-name">Networking (CCNA)</span>
+              <div class="skill-bar-track" aria-label="80%">
+                <div class="skill-bar-fill" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-row" role="listitem">
+              <span class="skill-name">AWS Cloud</span>
+              <div class="skill-bar-track" aria-label="70%">
+                <div class="skill-bar-fill" data-width="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <div
+            class="section-label"
+            style="color: var(--gold); margin-bottom: 2.5rem"
+          >
+            Experience
+          </div>
+          <ol class="exp-list" aria-label="Work experience">
+            <li class="exp-item fade-up">
+              <span class="exp-year">Feb – May 2026</span>
+              <div>
+                <div class="exp-role">IT Developer Intern</div>
+                <div class="exp-company">Arktech Philippines Inc.</div>
+                <div class="exp-desc">
+                  Built a Quotation Management System and a Company Calendar
+                  Scheduling System — both deployed internally. PHP, MySQL,
+                  AJAX, PDF generation, KPI dashboards.
+                </div>
+              </div>
+            </li>
+            <li class="exp-item fade-up">
+              <span class="exp-year">2022 – 2026</span>
+              <div>
+                <div class="exp-role">BS Information Technology</div>
+                <div class="exp-company">
+                  Batangas State University — JPLPC Malvar
+                </div>
+                <div class="exp-desc">
+                  Major in Network Technology · GWA 1.5590 · Dean's List
+                  2022–2026. Expected graduation August 2026.
+                </div>
+              </div>
+            </li>
+            <li class="exp-item fade-up">
+              <span class="exp-year">2020 – 2022</span>
+              <div>
+                <div class="exp-role">Senior High School Graduate</div>
+                <div class="exp-company">La Consolacion College Tanauan</div>
+                <div class="exp-desc">
+                  Final Average 88.18 (2021–22) · 88.28 (2020–21)
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" aria-labelledby="services-title">
+        <div class="section-header">
+          <div>
+            <div class="section-label">What I Offer</div>
+            <h2 class="section-title" id="services-title">
+              My <em>Services</em>
+            </h2>
+          </div>
+        </div>
+        <div class="services-grid">
+          <div class="service-card fade-up">
+            <div class="service-num">01</div>
+            <h3 class="service-title">Web Application Development</h3>
+            <p class="service-desc">
+              Full-stack web apps built with PHP, MySQL, and JavaScript. From
+              business management tools to internal company systems — clean,
+              scalable, and reliable.
+            </p>
+            <a href="#contact" class="service-arrow">Enquire →</a>
+          </div>
+          <div class="service-card fade-up">
+            <div class="service-num">02</div>
+            <h3 class="service-title">Responsive Website Design</h3>
+            <p class="service-desc">
+              Modern, mobile-first websites that look great on every device.
+              HTML, CSS, and JavaScript crafted to reflect your brand and
+              convert visitors into clients.
+            </p>
+            <a href="#contact" class="service-arrow">Enquire →</a>
+          </div>
+          <div class="service-card fade-up">
+            <div class="service-num">03</div>
+            <h3 class="service-title">Database & System Integration</h3>
+            <p class="service-desc">
+              MySQL database design, AJAX-powered real-time features, approval
+              workflows, PDF generation, and Excel exports. I turn spreadsheet
+              chaos into dynamic web tools.
+            </p>
+            <a href="#contact" class="service-arrow">Enquire →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section
+        id="certifications"
+        class="cert-section"
+        aria-labelledby="cert-title"
+      >
+        <div
+          class="section-header"
+          style="border-bottom-color: rgba(230, 213, 184, 0.1)"
+        >
+          <div>
+            <div class="section-label" style="color: var(--gold)">
+              Credentials
+            </div>
+            <h2
+              class="section-title"
+              id="cert-title"
+              style="color: var(--parchment)"
+            >
+              Certifications <em>&amp; Courses</em>
+            </h2>
+          </div>
+        </div>
+        <div class="cert-grid">
+          <div class="cert-item fade-up">
+            <div class="cert-img-wrap">
+              <img
+                src="assets/certificates/cert4.png"
+                alt="CCNA Introduction to Networks certificate"
+                class="cert-img"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
+              <div class="cert-img-placeholder">
+                <span class="cert-placeholder-icon">⊕</span>
+                <span class="cert-placeholder-text"
+                  >Certificate Photo<br />Coming Soon</span
+                >
+              </div>
+            </div>
+            <div class="cert-body">
+              <div class="cert-name">CCNA: Introduction to Networks</div>
+              <div class="cert-issuer">Cisco Networking Academy</div>
+            </div>
+          </div>
+
+          <div class="cert-item fade-up">
+            <div class="cert-img-wrap">
+              <img
+                src="assets/certificates/cert5.png"
+                alt="CCNA Switching Routing Wireless certificate"
+                class="cert-img"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
+              <div class="cert-img-placeholder">
+                <span class="cert-placeholder-icon">⊕</span>
+                <span class="cert-placeholder-text"
+                  >Certificate Photo<br />Coming Soon</span
+                >
+              </div>
+            </div>
+            <div class="cert-body">
+              <div class="cert-name">
+                CCNA: Switching, Routing &amp; Wireless Essentials
+              </div>
+              <div class="cert-issuer">Cisco Networking Academy</div>
+            </div>
+          </div>
+
+          <div class="cert-item fade-up">
+            <div class="cert-img-wrap">
+              <img
+                src="assets/certificates/cert6.png"
+                alt="CCNA Enterprise Networking Security Automation certificate"
+                class="cert-img"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
+              <div class="cert-img-placeholder">
+                <span class="cert-placeholder-icon">⊕</span>
+                <span class="cert-placeholder-text"
+                  >Certificate Photo<br />Coming Soon</span
+                >
+              </div>
+            </div>
+            <div class="cert-body">
+              <div class="cert-name">
+                CCNA: Enterprise Networking, Security &amp; Automation
+              </div>
+              <div class="cert-issuer">Cisco Networking Academy</div>
+            </div>
+          </div>
+          <div class="cert-item fade-up">
+            <div class="cert-img-wrap">
+              <img
+                src="assets/certificates/cert3.jpg"
+                alt="Pearson IT Specialist — Networking certificate"
+                class="cert-img"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
+              <div class="cert-img-placeholder">
+                <span class="cert-placeholder-icon">⊕</span>
+                <span class="cert-placeholder-text"
+                  >Certificate Photo<br />Coming Soon</span
+                >
+              </div>
+            </div>
+            <div class="cert-body">
+              <div class="cert-name">Pearson IT Specialist — Networking</div>
+              <div class="cert-issuer">Pearson VUE</div>
+            </div>
+          </div>
+          <div class="cert-item fade-up">
+            <div class="cert-img-wrap">
+              <img
+                src="assets/certificates/cert2.jpg"
+                alt="AWS Academy Cloud Foundations certificate"
+                class="cert-img"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
+              <div class="cert-img-placeholder">
+                <span class="cert-placeholder-icon">⊕</span>
+                <span class="cert-placeholder-text"
+                  >Certificate Photo<br />Coming Soon</span
+                >
+              </div>
+            </div>
+            <div class="cert-body">
+              <div class="cert-name">AWS Academy Cloud Foundations</div>
+              <div class="cert-issuer">Amazon Web Services</div>
+            </div>
+          </div>
+
+          <div class="cert-item fade-up">
+            <div class="cert-img-wrap">
+              <img
+                src="assets/certificates/cert1.jpg"
+                alt="Cisco NetRiders certificate"
+                class="cert-img"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
+              <div class="cert-img-placeholder">
+                <span class="cert-placeholder-icon">⊕</span>
+                <span class="cert-placeholder-text"
+                  >Certificate Photo<br />Coming Soon</span
+                >
+              </div>
+            </div>
+            <div class="cert-body">
+              <div class="cert-name">Cisco NetRiders Participant</div>
+              <div class="cert-issuer">Cisco · 2025</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIAL / QUOTE -->
+      <div class="testimonial-section">
+        <figure>
+          <blockquote class="testimonial-quote">
+            "I'm a fresh graduate with <em>real enterprise experience</em> — two
+            production systems deployed, five CCNA/cloud certifications, and a
+            Dean's List record. Let's build something great together."
+          </blockquote>
+          <figcaption class="testimonial-author">
+            <div class="testimonial-name">
+              Emmanuel M. Alo · BS IT Graduate, Batangas State University
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- CONTACT -->
+      <section
+        id="contact"
+        class="contact-section"
+        aria-labelledby="contact-title"
+      >
+        <div class="contact-left">
+          <div class="section-label">Get In Touch</div>
+          <h2 class="contact-title" id="contact-title">
+            Let's build<br />something<br />together
+          </h2>
+          <address class="contact-info">
+            <div class="contact-line">
+              <span class="contact-line-label">Email</span>
+              <a
+                href="mailto:emmanuelalo209@gmail.com"
+                class="contact-line-value"
+                >emmanuelalo209@gmail.com</a
+              >
+            </div>
+            <div class="contact-line">
+              <span class="contact-line-label">Phone</span>
+              <a href="tel:+639931693213" class="contact-line-value"
+                >(+63) 993 169 3213</a
+              >
+            </div>
+            <div class="contact-line">
+              <span class="contact-line-label">Based In</span>
+              <span class="contact-line-value">Batangas, Philippines</span>
+            </div>
+            <div class="contact-line">
+              <span class="contact-line-label">Availability</span>
+              <span class="contact-line-value"
+                >Open to freelance projects now</span
+              >
+            </div>
+          </address>
+        </div>
+
+        <div class="contact-right">
+          <form id="contact-form" novalidate aria-label="Contact form">
+            <div class="form-group">
+              <label class="form-label" for="name">Your Name</label>
+              <input
+                class="form-input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full name"
+                required
+                autocomplete="name"
+              />
+              <span class="form-error" id="name-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address</label>
+              <input
+                class="form-input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="hello@company.com"
+                required
+                autocomplete="email"
+              />
+              <span class="form-error" id="email-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message"
+                >Tell Me About Your Project</label
+              >
+              <textarea
+                class="form-textarea"
+                id="message"
+                name="message"
+                placeholder="What do you need built? What's the timeline?"
+                required
+              ></textarea>
+              <span class="form-error" id="message-error" role="alert"></span>
+            </div>
+            <button type="submit" class="form-submit" id="form-submit">
+              Send Message
+            </button>
+            <div
+              class="form-success"
+              id="form-success"
+              role="status"
+              aria-live="polite"
+            ></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+      <span class="footer-copy"
+        >© 2026 Emmanuel M. Alo. All rights reserved.</span
+      >
+      <ul class="footer-socials" role="list" aria-label="Links">
+        <li><a href="mailto:emmanuelalo209@gmail.com">Email</a></li>
+        <li><a href="tel:+639931693213">Phone</a></li>
+        <li>
+          <a
+            href="assets/templates/CV_Emmanuel%20Alo.pdf"
+            download
+            class="btn-secondary"
+          >
+            Download CV →
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/izimodal/css/iziModal.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/izimodal/js/iziModal.min.js"></script>
+
+    <div id="project-modal"></div>
+
+    <script src="scripts/main.js" defer></script>
+  </body>
+</html>
