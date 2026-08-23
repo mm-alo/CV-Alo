@@ -1149,13 +1149,40 @@ section {
 }
 
 a.contact-line-value:hover { color: var(--ink); }
-
 .contact-right {
   padding: 7rem 4rem;
   background: var(--ink);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 420px;
+}
+
+.contact-email-big {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+  font-weight: 300;
+  color: var(--parchment);
+  text-decoration: none;
+  line-height: 1.3;
+  word-break: break-word;
+  transition: color var(--transition-base);
+}
+
+.contact-email-big:hover { color: var(--gold); }
+
+.contact-text {
+  font-size: 0.95rem;
+  color: rgba(230, 213, 184, 0.6);
+  line-height: 1.6;
+  margin: 0;
 }
 
 /* Form */
